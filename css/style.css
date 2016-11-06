@@ -53,6 +53,13 @@ body.eye a.eye, body.ear a.ear, body.mouth a.mouth {
     border-radius: 20px;
 }
 
+#nav li{
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    float: center;
+}
+
 #header img {
     width: 100%;
     height: auto;
