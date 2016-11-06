@@ -1,5 +1,4 @@
 
-
 nav{
     font-family: helvetica;
     list-style:none;
@@ -66,6 +65,19 @@ body.eye a.eye, body.ear a.ear, body.mouth a.mouth {
     width: 100%;
     height: auto;
     padding: 10px;
+    margin-bottom: 5px;
+}
+
+#eye body{
+    background-image: url("img/banff.gif");
+}
+
+.ear body{
+    background-image: url("img/record.gif");
+}
+
+.mouth body{
+    background-image: url("img/fire.gif");
 }
 
 @media screen and (min-width: 600px) {
