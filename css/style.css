@@ -1,6 +1,4 @@
-body{
-    background-color: black;
-}
+
 
 nav{
     font-family: helvetica;
@@ -47,22 +45,27 @@ a:hover{
 }
 
 body.eye a.eye, body.ear a.ear, body.mouth a.mouth {
-    border-style: solid;
-    border-width: 1px;
-    border-color: white;
-    border-radius: 20px;
+    background-color: white;
+    color: white;
+    text-decoration: underline;
 }
 
 #nav li{
     text-align: center;
     padding: 10px;
-    margin: 5px;
+    margin: 4px;
+    font-size: large;
+}
+
+#nav {   
+    text-align: center;
     float: center;
 }
 
 #header img {
     width: 100%;
     height: auto;
+    padding: 10px;
 }
 
 @media screen and (min-width: 600px) {
