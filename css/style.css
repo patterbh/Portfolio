@@ -38,12 +38,6 @@ a:link {
     text-decoration: none;
 }
 
-body.eye a.eye, body.ear a.ear, body.mouth a.mouth {
-    background-color: white;
-    color: white;
-    text-decoration: underline;
-}
-
 #nav li{
     text-align: center;
     padding: 10px;
@@ -118,8 +112,8 @@ body.mouth a.mouth{
     text-decoration:
     none;background:#333}
 
-.eye:body{
-    background-image: url("img/banff.gif");
+body.eye {
+    background-image: url("http://static.tumblr.com/93f0bd40b8325d2d2adf5ef5b67ba984/oadnd1o/GWBnnqajd/tumblr_static_83y42i7l4og8ckcks0o08kksk.gif");
 }
 
 .ear:body{
