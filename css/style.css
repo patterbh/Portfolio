@@ -38,11 +38,6 @@ a:link {
     text-decoration: none;
 }
 
-a:hover{
-    background-color: #ff68ff;
-    color: white;
-}
-
 body.eye a.eye, body.ear a.ear, body.mouth a.mouth {
     background-color: white;
     color: white;
@@ -66,17 +61,72 @@ body.eye a.eye, body.ear a.ear, body.mouth a.mouth {
     height: auto;
     padding: 10px;
     margin-bottom: 5px;
+} 
+
+body.eye a.eye{
+    display:block;
+    width:100px;
+    height:100px;
+    border-radius:50px;
+    font-size:20px;
+    color:#fff;
+    line-height:100px;
+    text-align:center;
+    text-decoration:none;
+    background:#00aeed
 }
 
-#eye body{
+.eye:active{
+    color:#ccc;
+    text-decoration:
+    none;background:#333}
+
+body.ear a.ear{
+    display:block;
+    width:100px;
+    height:100px;
+    border-radius:50px;
+    font-size:20px;
+    color:#fff;
+    line-height:100px;
+    text-align:center;
+    text-decoration:none;
+    background:#ff68ff
+}
+
+.ear:active{
+    color:#ccc;
+    text-decoration:
+    none;background:#333}
+
+
+body.mouth a.mouth{
+    display:block;
+    width:100px;
+    height:100px;
+    border-radius:50px;
+    font-size:20px;
+    color:#fff;
+    line-height:100px;
+    text-align:center;
+    text-decoration:none;
+    background:#b20000
+}
+
+.mouth:active{
+    color:#ccc;
+    text-decoration:
+    none;background:#333}
+
+.eye:body{
     background-image: url("img/banff.gif");
 }
 
-.ear body{
+.ear:body{
     background-image: url("img/record.gif");
 }
 
-.mouth body{
+.mouth:body{
     background-image: url("img/fire.gif");
 }
 
